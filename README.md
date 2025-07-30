@@ -26,29 +26,6 @@ Welcome to the **Markets A-Z Auth System** — a modern authentication backend b
 
 ---
 
-## 📸 Screenshots
-
-### 📝 Signup Page
-![Signup Page](screenshots/signup.png)
-
-### 🔐 Login Page
-![Login Page](screenshots/login.png)
-
-### 📩 Email Confirmation Message
-![Email Confirmation](screenshots/confirm-email.png)
-
-### 🤯 Forgot Password Page
-![Forgot Password](screenshots/forgot-password.png)
-
-### 🔄 Reset Password Page
-![Reset Password](screenshots/reset-password.png)
-
-### 🎉 Success Page
-![Success Page](screenshots/success.png)
-
-
----
-
 ## 🛠️ How to Run This Project
 
 ### 1. Clone the Repository
@@ -88,13 +65,30 @@ Replace <your-mongodb-uri> with your actual connection string from MongoDB Atlas
 -This system does not use Mongoose, making it lighter and more native to the mongodb package.
 
 -Make sure to handle .env securely and never commit sensitive data.
-
 ## 📬 Contact
 -Have feedback or need help or need a video showcasing full functionality of the aplication?
-
 -📧 Email: yubraotieno@gmail.com
 -🌐 Project by: Yubra FX
-
+---
 ## 📝 License
 -This project is licensed under the MIT License — feel free to use and modify it for your own projects.
+---## 📸 Screenshots
+
+### 📝 Signup Page
+![Signup Page](screenshots/signup.png)
+
+### 🔐 Login Page
+![Login Page](screenshots/login.png)
+
+### 📩 Email Confirmation Message
+![Email Confirmation](screenshots/confirm-email.png)
+
+### 🤯 Forgot Password Page
+![Forgot Password](screenshots/forgot-password.png)
+
+### 🔄 Reset Password Page
+![Reset Password](screenshots/reset-password.png)
+
+### 🎉 Success Page
+![Success Page](screenshots/success.png)
 
