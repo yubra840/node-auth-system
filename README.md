@@ -86,10 +86,12 @@ Replace <your-mongodb-uri> with your actual connection string from MongoDB Atlas
 ![Email Confirmation](screenshots/confirm-email.png)
 
 ### 🤯 Forgot Password Page
-![Forgot Password](screenshots/forgot-password.png)
+![Reset Password](screenshots/reset-password.png)
+
 
 ### 🔄 Reset Password Page
-![Reset Password](screenshots/reset-password.png)
+![Forgot Password](screenshots/forgot-password.png)
+
 
 ### 🎉 Success Page
 ![Success Page](screenshots/success.png)
