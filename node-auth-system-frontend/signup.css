@@ -1,0 +1,117 @@
+/* public/style.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #2c3e50, #3498db);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  animation: fadeIn 1s ease;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+input {
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #3498db;
+  outline: none;
+  box-shadow: 0 0 10px #3498db80;
+}
+
+.animated-btn {
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.animated-btn:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+
+.switch-link {
+  margin-top: 10px;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.switch-link span {
+  color: #3498db;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#signupmessage {
+  text-align: center;
+  margin-top: 3px;
+  color: green;
+}
+#warningmessage {
+  text-align: center;
+  margin-top: 3px;
+  color: red;
+}
+#noticemessage {
+  text-align: center;
+  margin-top: 3px;
+}
+
+.password-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-container input {
+  flex: 1;
+}
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  user-select: none;
+  font-size: 18px;
+}
+span{
+  margin-right: 5px;
+}
+span a {
+  color: red;
+  text-decoration: none;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(50px); }
+  to { opacity: 1; transform: translateY(0); }
+}
