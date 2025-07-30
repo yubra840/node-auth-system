@@ -69,6 +69,7 @@ Replace <your-mongodb-uri> with your actual connection string from MongoDB Atlas
 -Have feedback or need help or need a video showcasing full functionality of the aplication?
 -📧 Email: yubraotieno@gmail.com
 -🌐 Project by: Yubra FX
+
 ---
 ## 📝 License
 -This project is licensed under the MIT License — feel free to use and modify it for your own projects.
