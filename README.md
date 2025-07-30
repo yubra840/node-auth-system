@@ -73,7 +73,8 @@ Replace <your-mongodb-uri> with your actual connection string from MongoDB Atlas
 ---
 ## 📝 License
 -This project is licensed under the MIT License — feel free to use and modify it for your own projects.
----## 📸 Screenshots
+
+## 📸 Screenshots
 
 ### 📝 Signup Page
 ![Signup Page](screenshots/signup.png)
